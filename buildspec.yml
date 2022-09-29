@@ -19,6 +19,6 @@ phases:
     - ls
 artifacts:
   files:
-  - "**/dist/**/*"
-  - "**/scripts/**"
-  - "**/appspec.yml"
+    - target/dist/
+    - appspec.yml
+  discard-paths: yes
