@@ -20,6 +20,5 @@ artifacts:
         - scripts/start_server
         - scripts/stop_server
         - appspec.yml
-    folders:
-        - dist
+        - ./dist/*
     discard-paths: yes
