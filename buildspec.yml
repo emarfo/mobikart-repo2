@@ -19,6 +19,7 @@ artifacts:
     files:
         - scripts/start_server
         - scripts/stop_server
-        - dist/*
         - appspec.yml
+    folders:
+        - dist
     discard-paths: yes
