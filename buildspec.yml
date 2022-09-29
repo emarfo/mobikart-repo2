@@ -4,7 +4,6 @@ phases:
     build:
         commands:
             - echo "Build block"
-            - ls
        post_build:
         commands:
             - echo "Post build phase"
