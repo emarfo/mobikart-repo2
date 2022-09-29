@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
 - source: /
-  destination: /home/ubuntu/mobakart
+  destination: /home/ubuntu/mobakart/
 #hooks:
  # ApplicationStart:
   #  - location: scripts/application_start.sh
