@@ -20,5 +20,5 @@ artifacts:
         - scripts/install_dependencies
         - scripts/start_server
         - appspec.yml
-        - "**/dist/**/*"
+        - "**/dist/*"
     discard-paths: yes
