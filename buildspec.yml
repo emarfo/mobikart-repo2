@@ -22,3 +22,4 @@ artifacts:
     - "**/dist/**/*"
     - appspec.yml
   discard-paths: yes
+  base-directory: frontend/dist
