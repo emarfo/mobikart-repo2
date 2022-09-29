@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
 - source: /
-  destination: /home/ec2-user/mobakit-repo/
+  destination: /home/ec2-user/mobakart/
 hooks:
   ApplicationStart:
     - location: scripts/application_start.sh
