@@ -3,8 +3,8 @@ os: linux
 files:
 - source: /
   destination: /home/ec2-user/mobakart
-hooks:
-  ApplicationStart:
-    - location: scripts/application_start.sh
-      timeout: 300
+#hooks:
+ # ApplicationStart:
+  #  - location: scripts/application_start.sh
+   #   timeout: 300
     
