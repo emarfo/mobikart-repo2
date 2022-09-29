@@ -8,10 +8,10 @@ phases:
   pre_build:
     commands:
     - echo Installing source NPM dependencies...
-    - npm install
+    //- npm install
   build:
     commands:
-    - npm run build
+  //  - npm run build
     - ls
   post_build:
     commands:
@@ -22,4 +22,3 @@ artifacts:
     - "**/dist/**/*"
     - appspec.yml
   discard-paths: yes
-  base-directory: frontend/dist
