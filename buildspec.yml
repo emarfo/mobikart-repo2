@@ -19,7 +19,6 @@ artifacts:
     files:
         - scripts/install_dependencies
         - scripts/start_server
-       # - scripts/stop_server
         - appspec.yml
         - "**/dist/**/*"
     discard-paths: yes
