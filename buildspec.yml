@@ -16,8 +16,6 @@ phases:
     - echo Build completed on `date`
     - ls
 artifacts:
-    files:
-        - scripts/install_dependencies
-        - scripts/start_server
-        - appspec.yml
-    discard-paths: yes
+  files:
+    - '**/*'
+  base-directory: 'dist'
