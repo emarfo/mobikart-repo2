@@ -12,8 +12,8 @@ phases:
     - npm install
   build:
     commands:
-    - ls
     - npm run build
+    - ls
   post_build:
     commands:
     - echo Build completed on `date`
