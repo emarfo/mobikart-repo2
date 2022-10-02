@@ -1,2 +1,18 @@
 #!/bin/bash
-pwd
+mkdir /home/ubuntu/mobakart
+sudo apt update -yn
+sudo apt install nginx -y
+echo "server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    root /home/ubuntu/mobakart/dist/ECommerceProject;
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name _;
+
+    location / {
+        try_files $uri $uri/ /index.html;}
+    }" > /etc/nginx/sites-enabled/default
+sudo apt install curl
+curl -s https://deb.nodesource.com/setup_16.x | sudo bash
+sudo apt install nodejs -y
